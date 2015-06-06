@@ -14,8 +14,16 @@ active: home
 					Find me in source/index.html
 					<br/>
 				</p>
-			</div>
 
+                                <ul class="collections">
+                                {% for itm in site.gathered_data %}
+                                  <li>
+                                    {{ itm.name }}
+                                    {{ itm.content }}
+                                  </li>
+                                {% endfor %}
+                                </ul>
+			</div>
 		</div>
 	</div>
 </div>

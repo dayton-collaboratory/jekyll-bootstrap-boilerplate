@@ -111,3 +111,7 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+collections:
+- gathered_data
+
